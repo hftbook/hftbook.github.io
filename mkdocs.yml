@@ -1,5 +1,5 @@
 site_name: HFT Book
-copyright: Copyright &copy; 2022 <b>Lucas RODRIGUEZ</b>. All rights reserved<br>Other trademarks are the property of their respective owners
+copyright: Copyright &copy; 2022 <b>Lucas RODRIGUEZ</b>. All rights reserved<br>Other trademarks are the property of their respective owners.
 theme:
   name: material
   custom_dir: overrides
@@ -11,6 +11,7 @@ theme:
     - navigation.top
     - toc.follow
     - navigation.instant
+    - header.autohide
   font:
     text: Roboto
     code: Roboto Mono
@@ -28,3 +29,14 @@ markdown_extensions:
       title: On this page
       permalink: true
       permalink_title: Anchor link to this section for reference
+
+# Navigation center
+nav:
+  - Home: index.md
+  - About: about.md
+  - Software: software/index.md
+  - Hardware: hardware/index.md
+  - Network: hardware/network/index.md
+  - Data: data/index.md
+  - References: bibliography.md
+  - TODO: todo.md
