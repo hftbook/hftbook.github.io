@@ -38,6 +38,7 @@ nav:
   - Home: index.md
   - About: about.md
   - Software: software/index.md
+  - Statistics: statistics/index.md
   - Hardware: hardware/index.md
   - Network: hardware/network/index.md
   - Data: data/index.md
