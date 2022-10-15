@@ -15,7 +15,19 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-
+  palette:
+    - scheme: default
+      primary: black
+      accent: blue
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: black
+      accent: blue
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
 # Extra features
 extra:
   generator: false
