@@ -1,5 +1,5 @@
 site_name: HFT Book
-copyright: Copyright &copy; 2022 Lucas RODRIGUEZ. All rights reserved
+copyright: Copyright &copy; 2022 <b>Lucas RODRIGUEZ</b>. All rights reserved<br>Other trademarks are the property of their respective owners
 theme:
   name: material
   custom_dir: overrides
@@ -11,6 +11,15 @@ theme:
     - navigation.top
     - toc.follow
     - navigation.instant
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+# Extra features
+extra:
+  generator: false
+
+# Extensions
 markdown_extensions:
   - toc:
       title: On this page
