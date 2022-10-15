@@ -17,7 +17,7 @@ theme:
     code: Roboto Mono
   palette:
     - scheme: default
-      primary: black
+      primary: white
       accent: blue
       toggle:
         icon: material/toggle-switch-off-outline
