@@ -30,19 +30,19 @@ The generic exponential function ($\cdot \longmapsto \exp \cdot$) is commonly us
 
 Many criteria can be used with this method, in order to distinguish either heavy or light-tailed distributions.
 
+!!! danger "Property"
+    $F$ is ***light-tailed*** if:
 
-$F$ is ***light-tailed*** if:
+    $$
+    \lim_{x \rightarrow + \infty} \frac{\overline{F}(x)}{e^{-\alpha x}} < + \infty, \ \text{for some $\alpha > 0$}
+    $$
 
-$$
-\lim_{x \rightarrow + \infty} \frac{\overline{F}(x)}{e^{-\alpha x}} < + \infty, \ \text{for some $\alpha > 0$}
-$$
+!!! danger "Property"
+    $F$ is ***heavy-tailed*** if:
 
-
-$F$ is ***heavy-tailed*** if:
-
-$$
-\forall \alpha > 0, \ \lim_{x \rightarrow + \infty} \frac{\overline{F}(x)}{e^{-\alpha x}} = + \infty
-$$
+    $$
+    \forall \alpha > 0, \ \lim_{x \rightarrow + \infty} \frac{\overline{F}(x)}{e^{-\alpha x}} = + \infty
+    $$
 
 Remark: For simplicity sake within further mathematical proofs, the *for some* statement can be easily replaced by:
 
@@ -52,7 +52,8 @@ $$
 
 So that, we only have to recover only one $\alpha_0$ strictly positive, which satisfies this property.
 
-**Proposition**: Let $X$ be a non negative $\mathbb{R}$-valued random variable with $M_X$, its moment generating function (mgf) defined in $u > 0$
+!!! danger "Property"
+    Let $X$ be a non negative $\mathbb{R}$-valued random variable with $M_X$, its moment generating function (mgf) defined in $u > 0$
 
 
 

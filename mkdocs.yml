@@ -8,7 +8,6 @@ theme:
     - navigation.tabs.sticky
     - navigation.tracking
     - navigation.sections
-    - navigation.top
     - toc.follow
     - navigation.instant
     - header.autohide
@@ -57,7 +56,9 @@ nav:
   - Home: index.md
   - About: about.md
   - Software: software/index.md
-  - Statistics: statistics/index.md
+  - Statistics:
+      - Home: statistics/index.md
+      - Overview of heavy-tailed distribution: statistics/heavy-tails.md
   - Hardware: hardware/index.md
   - Network: hardware/network/index.md
   - Data: data/index.md
