@@ -1,3 +1,18 @@
 site_name: HFT Book
+copyright: Copyright &copy; 2022 Lucas RODRIGUEZ. All rights reserved
 theme:
   name: material
+  custom_dir: overrides
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.tracking
+    - navigation.sections
+    - navigation.top
+    - toc.follow
+    - navigation.instant
+markdown_extensions:
+  - toc:
+      title: On this page
+      permalink: true
+      permalink_title: Anchor link to this section for reference
