@@ -19,6 +19,9 @@ theme:
 extra:
   generator: false
 
+repo_url: https://github.com/hftbook/
+repo_name: Official Git repo
+
 # Extensions
 markdown_extensions:
   - toc:
