@@ -25,6 +25,9 @@ repo_name: Official Git repo
 
 # Extensions
 markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
   - toc:
       title: On this page
       permalink: true
