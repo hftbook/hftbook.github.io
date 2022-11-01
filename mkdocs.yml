@@ -59,8 +59,12 @@ nav:
   - Statistics:
       - Home: statistics/index.md
       - Overview of heavy-tailed distribution: statistics/heavy-tails.md
-  - Hardware: hardware/index.md
-  - Network: hardware/network/index.md
+  - Hardware:
+      - Home: hardware/index.md
+      - FPGA: hardware/fpga.md
+  - Network:
+      - Home: hardware/network/index.md
+      - Direct Market Access: hardware/network/dma.md
   - Data: data/index.md
   - References: bibliography.md
   - TODO: todo.md
