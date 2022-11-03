@@ -2,6 +2,21 @@
 
 ## OSI model
 
+
+The **Open Systems Interconnection model** (OSI model) is a conceptual summary providing a common basis for the coordination of ISO standards development for the purpose of systems interconnection.
+
+In the OSI reference model, the communications between a computing system are split into seven different abstraction layers:
+ 
+1. Physical
+2. Data Link
+3. Network
+4. Transport
+5. Session
+6. Presentation
+7. Application
+
+---
+
 <table>
 <tbody><tr>
 <th colspan="3">Layer</th>
