@@ -61,7 +61,8 @@ nav:
       - Overview of heavy-tailed distribution: statistics/heavy-tails.md
   - Hardware:
       - Home: hardware/index.md
-      - FPGA: hardware/fpga.md
+      - Execution acceleration:
+          - Use of FPGA: hardware/fpga.md
   - Network:
       - Home: hardware/network/index.md
       - Direct Market Access: hardware/network/dma.md
