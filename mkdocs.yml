@@ -58,7 +58,9 @@ extra_javascript:
 nav:
   - Home: index.md
   - About: about.md
-  - Software: software/index.md
+  - Software:
+      - Home: software/index.md
+      - Multithreading vs. Multiprocessing: software/multithread-multiprocess.md
   - Statistics:
       - Home: statistics/index.md
       - Overview of heavy-tailed distribution: statistics/heavy-tails.md
