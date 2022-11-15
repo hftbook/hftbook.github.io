@@ -30,6 +30,9 @@ theme:
 # Extra features
 extra:
   generator: false
+  analytics:
+    provider: google
+    property: G-SBQYP4BH0V
 
 repo_url: https://github.com/hftbook/
 repo_name: Official Git repo
